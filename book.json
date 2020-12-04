@@ -29,7 +29,10 @@
         "pageNumbers": false,
         "paperSize": "a4"
     },
-    "plugins": [],
+    "plugins": [
+        "-lunr",
+        "-search"
+    ],
     "title": "PolarCore Guide",
     "structure": {
         "readme": "README.md"
