@@ -3,7 +3,7 @@
 ## 猫码
 
 CatCode（猫码） 是 PolarCore 中的约定。它本身是一个占位符，用于表达特殊信息
-例如：`What is that?[Image:(Base64)https://an.url/to/image.png][At:UserID]' 目前猫码支持以下通用格式：
+例如：What is that?[Image:(Base64)https://an.url/to/image.png][At:UserID] 目前猫码支持以下通用格式：
 
 [Image:URL(Base64)/ImageID]
 
@@ -14,6 +14,18 @@ CatCode（猫码） 是 PolarCore 中的约定。它本身是一个占位符，�
 [Plain:Text] (纯文本，通常不需要手动指定格式)
 
 所有Wrappers应当实现猫码标准。
+
+## plugin.json
+
+该文件用于引导PolarCore加载你的插件。
+
+## SimpleConfig
+
+SimpleConfig 是一个Gson封装。
+
+`public SimpleConfig(Plugin plugin, Class<C> configClass)`
+
+可以存储任意可被gson序列化的对象。
 
 ### *开发小课堂
 猫码中的链接需要Base64加密，如下
