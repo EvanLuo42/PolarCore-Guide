@@ -24,7 +24,7 @@
 
 ### 第三步：
 
-本教程已经整合了一份Mirai懒人包，[点击]()下载。下载后双击bat，出现如下输出：
+本教程已经整合了一份Mirai懒人包，[点击](https://downloads.phakel.cn/Mirai.zip)下载。下载后双击bat，出现如下输出：
 
 ```shell
 2020-12-13 13:01:54 I/main: Starting mirai-console...
